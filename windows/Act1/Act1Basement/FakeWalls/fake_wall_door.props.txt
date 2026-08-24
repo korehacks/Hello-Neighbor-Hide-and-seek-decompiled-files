@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'Content/Objects/Materials/instances/wallpaper_12_inst.wallpaper_12_inst'
+    Materials[1] = MaterialInstanceConstant'Content/Objects/Materials/instances/wood_25_inst.wood_25_inst'
+    Materials[2] = MaterialInstanceConstant'Content/Objects/Materials/instances/wood_back_inst.wood_back_inst'
+    Materials[3] = MaterialInstanceConstant'Content/Objects/Materials/instances/wood_26_inst.wood_26_inst'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content/Objects/Materials/instances/wallpaper_12_inst.wallpaper_12_inst'
+        MaterialSlotName = wallpaper
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.067, 1803.32, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content/Objects/Materials/instances/wood_25_inst.wood_25_inst'
+        MaterialSlotName = wood_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 405.702, 1837.61, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content/Objects/Materials/instances/wood_back_inst.wood_back_inst'
+        MaterialSlotName = wood_tile
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.1, 1803.68, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content/Objects/Materials/instances/wood_26_inst.wood_26_inst'
+        MaterialSlotName = wood_2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.257, 1813.23, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.05176e-05, Y=84.2356, Z=312.401 }
+    BoxExtent = { X=443.491, Y=101.462, Z=312.401 }
+    SphereRadius = 551.881
+}

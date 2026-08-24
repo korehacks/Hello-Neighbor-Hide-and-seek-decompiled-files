@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Content/Objects/Materials/instances/metal_inst.metal_inst'
+    Materials[1] = MaterialInstanceConstant'Content/Objects/Materials/instances/metal_rusty_Inst.metal_rusty_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content/Objects/Materials/instances/metal_inst.metal_inst'
+        MaterialSlotName = metal_inst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 99.6914, 405.05, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content/Objects/Materials/instances/metal_rusty_Inst.metal_rusty_Inst'
+        MaterialSlotName = metal_rusty_Inst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 101.322, 406.67, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=105.256, Y=-0.406006, Z=343.816 }
+    BoxExtent = { X=122.515, Y=21.0237, Z=343.876 }
+    SphereRadius = 364.836
+}

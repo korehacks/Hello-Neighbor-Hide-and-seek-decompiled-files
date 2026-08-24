@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'Content/Objects/Materials/instances/ceiling_inst.ceiling_inst'
+    Materials[1] = MaterialInstanceConstant'Content/Objects/Materials/instances/wallpaper_13_inst.wallpaper_13_inst'
+    Materials[2] = MaterialInstanceConstant'Content/Objects/Materials/instances/brick_6_Inst.brick_6_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content/Objects/Materials/instances/ceiling_inst.ceiling_inst'
+        MaterialSlotName = white
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 547.712, 733.244, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content/Objects/Materials/instances/wallpaper_13_inst.wallpaper_13_inst'
+        MaterialSlotName = wallpaper.001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 568.275, 4135.72, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content/Objects/Materials/instances/brick_6_Inst.brick_6_Inst'
+        MaterialSlotName = w3
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 564.134, 1071.07, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-48.5, Y=-350, Z=275.5 }
+    BoxExtent = { X=628.5, Y=495, Z=275.5 }
+    SphereRadius = 834.588
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Content/Objects/Materials/instances/blockhouse_Inst.blockhouse_Inst'
+    Materials[1] = MaterialInstanceConstant'Content/Objects/Materials/instances/wood_34_inst.wood_34_inst'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content/Objects/Materials/instances/blockhouse_Inst.blockhouse_Inst'
+        MaterialSlotName = block
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 29.0057, 1144.12, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content/Objects/Materials/instances/wood_34_inst.wood_34_inst'
+        MaterialSlotName = wood.004
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 218.053, 1131.34, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=291.189, Y=-560.177, Z=346.582 }
+    BoxExtent = { X=305.929, Y=265.704, Z=346.583 }
+    SphereRadius = 531.334
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Content/Objects/Materials/instances/wallpaper_40_inst.wallpaper_40_inst'
+    Materials[1] = MaterialInstanceConstant'Content/Objects/Materials/instances/wallpaper_guestroom_floor_Inst.wallpaper_guestroom_floor_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content/Objects/Materials/instances/wallpaper_40_inst.wallpaper_40_inst'
+        MaterialSlotName = wallpaper
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 592.24, 2820.36, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content/Objects/Materials/instances/wallpaper_guestroom_floor_Inst.wallpaper_guestroom_floor_Inst'
+        MaterialSlotName = floor.002
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 483.632, 1164.23, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1017, Y=-458.5, Z=1197.66 }
+    BoxExtent = { X=320, Y=378.5, Z=626.66 }
+    SphereRadius = 798.978
+}

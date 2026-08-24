@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'Content/Objects/Materials/instances/metal_white_Inst.metal_white_Inst'
+    Materials[1] = MaterialInstanceConstant'Content/Objects/Materials/instances/metal_white_Inst.metal_white_Inst'
+    Materials[2] = MaterialInstanceConstant'Content/Objects/Materials/instances/metal_2_Inst.metal_2_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content/Objects/Materials/instances/metal_white_Inst.metal_white_Inst'
+        MaterialSlotName = metal_white_Inst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 70.7674, 308.01, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content/Objects/Materials/instances/metal_white_Inst.metal_white_Inst'
+        MaterialSlotName = metal_white_Inst_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 71.5896, 300.262, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content/Objects/Materials/instances/metal_2_Inst.metal_2_Inst'
+        MaterialSlotName = metal_2_Inst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 25.384, 303.437, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-8.10791, Y=68.997, Z=186.466 }
+    BoxExtent = { X=22.3364, Y=79.7476, Z=278.662 }
+    SphereRadius = 287.555
+}

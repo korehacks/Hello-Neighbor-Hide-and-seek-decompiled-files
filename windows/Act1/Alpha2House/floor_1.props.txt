@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content/Objects/Materials/instances/wallpaper_guestroom_floor_Inst.wallpaper_guestroom_floor_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content/Objects/Materials/instances/wallpaper_guestroom_floor_Inst.wallpaper_guestroom_floor_Inst'
+        MaterialSlotName = wallpaper_guestroom_floor_SM_Inst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 338.178, 2080.52, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-178.5, Y=-300, Z=571 }
+    BoxExtent = { X=1158.5, Y=905, Z=0 }
+    SphereRadius = 1470.08
+}

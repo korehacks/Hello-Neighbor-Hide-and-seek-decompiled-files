@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content/Objects/Materials/instances/wood_41_inst.wood_41_inst'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content/Objects/Materials/instances/wood_41_inst.wood_41_inst'
+        MaterialSlotName = wood_41_inst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 627.409, 3704.81, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=33, Y=-214.5, Z=1228 }
+    BoxExtent = { X=1390, Y=1149.5, Z=677 }
+    SphereRadius = 1919.66
+}

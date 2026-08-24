@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Content/Objects/Materials/instances/wallpaper_32_inst.wallpaper_32_inst'
+    Materials[1] = MaterialInstanceConstant'Content/Objects/Materials/instances/wallpaper_9_inst.wallpaper_9_inst'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content/Objects/Materials/instances/wallpaper_32_inst.wallpaper_32_inst'
+        MaterialSlotName = w4
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 561.967, 1411.3, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content/Objects/Materials/instances/wallpaper_9_inst.wallpaper_9_inst'
+        MaterialSlotName = w5
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 561.761, 2161.67, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-48.5, Y=162.5, Z=275.5 }
+    BoxExtent = { X=628.5, Y=442.5, Z=275.5 }
+    SphereRadius = 816.529
+}
